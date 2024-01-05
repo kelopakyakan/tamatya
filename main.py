@@ -6,11 +6,11 @@ from telegram.ext import (
     Filters,
     MessageHandler,
 )
-from config import BOT_TOKEN
+from config import KUE_BOLU
 from telegram.utils.helpers import mention_html
 import re
 
-updater = tg.Updater(BOT_TOKEN, workers=32, use_context=True)
+updater = tg.Updater(KUE_BOLU, workers=32, use_context=True)
 dispatcher = updater.dispatcher
 
 
