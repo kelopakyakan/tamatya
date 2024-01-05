@@ -1,3 +1,3 @@
 from os import getenv
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+KUE_BOLU = getenv("KUE_BOLU", "")
